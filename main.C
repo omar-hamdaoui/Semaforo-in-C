@@ -7,7 +7,7 @@ void setSemaforoAuto() {
     printf("🟡 ⚪ ⚪ Semaforo veicoli giallo\n");
     sleep(2);
     printf("🔴 ⚪ ⚪ Semaforo veicoli rosso\n");
-    sleep(5);
+    sleep(20);
 }
 
 void setSemaforoPedoni() {
@@ -18,7 +18,7 @@ void setSemaforoPedoni() {
     printf("⚪ 🟢 ⚪ Semaforo pedonale verde lampeggiante\n");
     sleep(5);
     printf("🔴 ⚪ ⚪ Semaforo pedonale rosso\n");
-    sleep(2);
+    sleep(15);
 }
 
 int main() {
